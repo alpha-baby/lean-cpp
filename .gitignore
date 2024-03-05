@@ -1,0 +1,13 @@
+!\.bazelci
+!\.bazelignore
+!\.bazelrc
+!\.bazelproject
+!\.bazelversion
+
+/bazel-*
+.idea
+**/*.dSYM/
+.vscode/
+cmake-build-debug/
+*.exe
+*.out
