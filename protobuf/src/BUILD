@@ -1,6 +1,7 @@
 load("@rules_cc//cc:defs.bzl", "cc_proto_library")
 load("@rules_proto//proto:defs.bzl", "proto_library")
-load("@rules_proto_grpc//cpp:defs.bzl", "cpp_grpc_library")
+# load("@rules_proto_grpc//cpp:defs.bzl", "cpp_grpc_library")
+load("@rules_proto_grpc_cpp//:defs.bzl", "cpp_grpc_library")
 
 
 cc_proto_library(

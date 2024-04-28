@@ -17,7 +17,7 @@
 
 using ZCodePtr = std::unique_ptr<demo::ZipCode>;
 
-int main2(int argc, char* argv[]) {
+int main(int argc, char* argv[]) {
     ZCodePtr code_p = std::make_unique<demo::ZipCode>();
     code_p->set_code("code");
     std::cout << "hello world" << std::endl;
