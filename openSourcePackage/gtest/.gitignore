@@ -1,0 +1,11 @@
+!\.bazelci
+!\.bazelignore
+!\.bazelrc
+!\.bazelproject
+!\.bazelversion
+
+/bazel-*
+/mobile/bazel-*
+clang.bazelrc
+user.bazelrc
+bazel.output.txt

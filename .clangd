@@ -1,0 +1,3 @@
+#.clangd
+CompileFlags:
+  Add: [-DMOE_ADMIN_API_LISTENER -std=c++20]
