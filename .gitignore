@@ -3,7 +3,7 @@
 !\.bazelrc
 !\.bazelproject
 !\.bazelversion
-
+.history
 /bazel-*
 .idea
 **/*.dSYM/
