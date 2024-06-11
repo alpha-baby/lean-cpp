@@ -4,3 +4,14 @@
 #
 # For more details, please check https://github.com/bazelbuild/bazel/issues/18958
 ###############################################################################
+module(
+    name = "protobuf-test",
+    compatibility_level = 1,
+)
+
+bazel_dep(name = "grpc", repo_name = "com_github_grpc_grpc", version = "1.62.1")
+bazel_dep(name = "googletest",repo_name = "com_google_googletest", version = "1.14.0.bcr.1")
+bazel_dep(name = "protobuf", version = "26.0.bcr.1", repo_name = "com_google_protobuf")
+bazel_dep(name = "abseil-cpp", version = "20230802.0.bcr.1", repo_name = "com_google_absl")
+bazel_dep(name = "rules_proto_grpc", version = "5.0.0-alpha2",)
+bazel_dep(name = "rules_proto_grpc_cpp", version = "5.0.0-alpha2")
